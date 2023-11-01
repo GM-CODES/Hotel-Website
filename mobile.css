@@ -38,6 +38,14 @@
   padding: 30px;
 }
 
+#contact-info .box {
+  border-bottom: 1px solid #ddd;
+}
+
+#contact-info .box:last-child {
+  border: none;
+}
+
 #about-info .about-info-left, #about-info .about-info-right {
   float: none;
   width: 100%;
@@ -51,19 +59,11 @@
 
 
 #testimonials {
-  height: 750px;
+  height: 100%;
 }
 
 #testimonials h2 {
   padding-top: 70px;
-}
-
-#contact-info .box {
-  border-bottom: 1px solid #ddd;
-}
-
-#contact-info .box:last-child {
-  border: none;
 }
 
 
